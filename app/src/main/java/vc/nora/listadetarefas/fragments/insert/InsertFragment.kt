@@ -84,9 +84,9 @@ class InsertFragment : Fragment() {
         date: String,
         time: String
     ): Boolean {
-        return !(TextUtils.isEmpty(title) &&
-                TextUtils.isEmpty(description) &&
-                TextUtils.isEmpty(date) &&
+        return !(TextUtils.isEmpty(title) ||
+                TextUtils.isEmpty(description) ||
+                TextUtils.isEmpty(date) ||
                 TextUtils.isEmpty(time))
     }
 
