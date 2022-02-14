@@ -11,7 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        app:title="@string/label_new_task" />
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        app:title="@string/label_update_task" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guide_start"
