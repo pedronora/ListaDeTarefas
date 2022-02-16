@@ -60,8 +60,8 @@ class UpdateFragment : Fragment() {
 
     private fun updateItem() {
         binding.btnUpdateTask.setOnClickListener {
-            val title = binding.tilTitle.text
-            val description = binding.tilDescription.text
+            val title = binding.tilTitle.text.trim()
+            val description = binding.tilDescription.text.trim()
             val date = binding.tilDate.text
             val time = binding.tilTime.text
 
