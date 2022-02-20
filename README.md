@@ -1,7 +1,7 @@
 # ListaDeTarefas
 Projeto de app de Lista de Tarefas para Android
 
-## Bootcampo NTT Data Android Deloper
+## Bootcampo NTT Data Android Developer
 ### Entrega Final
 App de Lista de Tarefas:
 - ViewBinding
